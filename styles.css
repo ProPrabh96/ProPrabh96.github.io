@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Times New Roman;
 }
 
 body {
@@ -54,7 +54,7 @@ main {
 
 /* Text Box Styling */
 .text-box {
-    background: #ff9800;  
+    background: #FFFFFF;  
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
@@ -68,7 +68,8 @@ main {
 
 .text-box p {
     font-size: 20px;
-    color: #444;
+    font-family: Times New Roman;
+    color: #ff9800 ;
     line-height: 1.8;
     text-align: justify;
 }
