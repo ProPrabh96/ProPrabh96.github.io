@@ -17,7 +17,7 @@ body {
 
 /* Header */
 header {
-    background: #1e88e5;  /* Deep blue */
+    background: #000080;  /* Deep blue */
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -54,7 +54,7 @@ main {
 
 /* Text Box Styling */
 .text-box {
-    background: #ffffff;  
+    background: #ff9800;  
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
@@ -176,7 +176,7 @@ main {
 
 /* Footer */
 footer {
-    background: #1e88e5;  
+    background: #000080;  
     color: white;
     text-align: center;
     padding: 20px;
