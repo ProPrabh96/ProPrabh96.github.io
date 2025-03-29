@@ -5,67 +5,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impact of Online Education</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="page-container">
+        <header>
+            <div class="header-content">
+                <h1>Impact of Online Education</h1>
+                <div class="theme-toggle">
+                    <label class="switch">
+                        <input type="checkbox" id="theme-switch">
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="toggle-label">Dark Mode</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Benefits</a></li>
+                    <li><a href="#">Challenges</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<header>
-    <h1>Impact of Online Education</h1>
-</header>
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <h2>Transforming Learning in the Digital Age</h2>
+                    <p class="tagline">Discover how online education is reshaping our approach to knowledge and skill acquisition</p>
+                </div>
+            </section>
 
-<main>
-    <section class="content-box">
-        <img src="https://www.vedantu.com/seo/content-images/b481bf38-4923-4f9b-9f9e-438dd902b9be.png" alt="Online Education Image" class="edu-img">
+            <section class="content-section">
+                <div class="image-container">
+                    <img src="https://www.vedantu.com/seo/content-images/b481bf38-4923-4f9b-9f9e-438dd902b9be.png" alt="Students engaging in online learning" class="feature-image">
+                    <div class="image-caption">Students collaborating through virtual learning platforms</div>
+                </div>
 
-        <div class="text-box">
-            <p>
-                Online education has revolutionized learning by making it more accessible and flexible. 
-                With virtual classrooms, students can learn from anywhere, at any time, making education 
-                more inclusive. However, it also brings challenges such as reduced face-to-face interaction, 
-                technical issues, and the need for self-discipline. Despite these challenges, online education 
-                continues to grow, offering convenience and diverse learning opportunities.
-            </p>
-        </div>
+                <div class="content-box">
+                    <h3>Revolutionizing Educational Access</h3>
+                    <div class="paragraph-container">
+                        <p>Online education has fundamentally transformed the landscape of learning in the 21st century. What began as a supplementary option has evolved into a mainstream approach that reaches millions of learners worldwide. The flexibility of digital learning platforms has democratized education, breaking down geographical barriers and enabling access for individuals regardless of location or circumstance.</p>
+                        
+                        <p>Studies show that online learning can be as effective as traditional classroom instruction, with the added benefits of personalized pacing and accessibility. Students can now tailor their educational experiences to fit their unique learning styles, schedules, and career aspirations. The COVID-19 pandemic accelerated this digital transformation, pushing institutions to rapidly adapt their curricula for remote delivery and highlighting both the potential and challenges of virtual learning environments.</p>
+                        
+                        <p>Beyond conventional academics, online education has created opportunities for continuous professional development and lifelong learning. From coding bootcamps to masterclasses taught by industry leaders, the internet has become a vast repository of knowledge that enables skill acquisition at every career stage. However, challenges remain in ensuring equitable access to technology, maintaining student engagement, and developing pedagogies specifically designed for digital contexts.</p>
+                    </div>
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <span class="stat-number">400%</span>
+                            <span class="stat-label">Growth in online course enrollment since 2019</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">73%</span>
+                            <span class="stat-label">Students reporting increased schedule flexibility</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">65%</span>
+                            <span class="stat-label">Educators adopting new digital teaching methods</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-        <!-- Interactive Statistics Box -->
-        <div class="stats-box">
-            <h2>Online Education by the Numbers</h2>
-            <ul>
-                <li>📚 <strong>1.2 Billion+</strong> students shifted to online learning during the pandemic.</li>
-                <li>💻 <strong>77%</strong> of students say online learning enhances their flexibility.</li>
-                <li>🌍 <strong>65%</strong> of teachers use online tools for regular instruction.</li>
-            </ul>
-        </div>
+            <section class="newsletter">
+                <h3>Stay Updated on Educational Trends</h3>
+                <p>Subscribe to our newsletter for the latest research and insights on online education</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </section>
+        </main>
 
-        <!-- Interactive Poll -->
-        <div class="poll-box">
-            <h3>Do You Prefer Online or Offline Education?</h3>
-            <form>
-                <label>
-                    <input type="radio" name="education" value="online" checked> Online
-                </label>
-                <label>
-                    <input type="radio" name="education" value="offline"> Offline
-                </label>
-                <label>
-                    <input type="radio" name="education" value="hybrid"> Hybrid
-                </label>
-                <button type="submit">Vote</button>
-            </form>
-        </div>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>We research and document the evolving landscape of digital education.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Research Papers</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Educational Tools</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">FB</a>
+                        <a href="#" class="social-icon">TW</a>
+                        <a href="#" class="social-icon">IG</a>
+                        <a href="#" class="social-icon">LI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Education Impact Research | Designed by <span class="designer">Sarah Johnson</span></p>
+                <p class="handcrafted">Handcrafted with care and attention to detail</p>
+            </div>
+        </footer>
+    </div>
 
-        <!-- Quote Section -->
-        <div class="quote-box">
-            <blockquote>
-                "Education is the passport to the future, for tomorrow belongs to those who prepare for it today." <br>
-                <span>- Malcolm X</span>
-            </blockquote>
-        </div>
-    </section>
-</main>
+    <script>
+        // Simple dark mode toggle functionality
+        document.getElementById('theme-switch').addEventListener('change', function() {
+            document.body.classList.toggle('dark-mode');
+        });
 
-<footer>
-    <p>&copy; 2025 LearnSphere | <a href="mailto:contact@learnsphere.com">Contact Us</a></p>
-</footer>
-
+        // Add animation for statistics on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const stats = document.querySelectorAll('.stat-number');
+            
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate');
+                    }
+                });
+            });
+            
+            stats.forEach(stat => {
+                observer.observe(stat);
+            });
+        });
+    </script>
 </body>
 </html>
+
+
+
